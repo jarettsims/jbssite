@@ -1,7 +1,8 @@
 <h1>Listing posts</h1>
+
  <!-- initially the line was 'render partial: @posts' but Rails knows to look for the correct partial if proper name conventions are followed. Notice also how posts is plural. On the show page, it is not, and thus only shows one post -->
 <%= render @posts %>
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+
